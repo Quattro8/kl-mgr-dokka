@@ -270,7 +270,7 @@ with [all configuration options](#complete-configuration) applied at the bottom 
     </def>
     <def title="suppressObviousFunctions">
         <p>Whether to suppress obvious functions.</p>
-        <p>
+        <p></p>
             A function is considered to be obvious if it is:
             <list>
                 <li>
@@ -282,7 +282,7 @@ with [all configuration options](#complete-configuration) applied at the bottom 
                     <code>dataClass.componentN</code> or <code>dataClass.copy</code>.
                 </li>
             </list>
-        </p>
+        <p></p>
         <p>Default: <code>true</code></p>
     </def>
     <def title="suppressInheritedMembers">
@@ -424,7 +424,7 @@ How to configure Kotlin
             as well as if you want to exclude <code>public</code> declarations and only document internal API.
         </p>
         <p>This can be configured on per-package basis.</p>
-        <p>
+        <p></p>
             Possible values:
             <list>
                 <li><code>PUBLIC</code></li>
@@ -433,7 +433,7 @@ How to configure Kotlin
                 <li><code>INTERNAL</code></li>
                 <li><code>PACKAGE</code></li>
             </list>
-        </p>
+        <p></p>
         <p>Default: <code>PUBLIC</code></p>
     </def>
     <def title="reportUndocumented">
@@ -509,7 +509,7 @@ How to configure Kotlin
             Platform to be used for setting up code analysis and 
             <a href="https://kotlinlang.org/docs/kotlin-doc.html#sample-identifier">@sample</a> environment.
         </p>
-        <p>
+        <p></p>
             Possible values:
             <list>
                 <li><code>jvm</code></li>
@@ -517,7 +517,7 @@ How to configure Kotlin
                 <li><code>js</code></li>
                 <li><code>native</code></li>
             </list>
-        </p>
+        <p></p>
     </def>
     <def title="sourceRoots">
         <p>
@@ -600,14 +600,14 @@ You can configure source links for all source sets together at the same time, or
             if this option is set to <code>#L</code> and the line number is 10, the resulting URL suffix
             is <code>#L10</code>.
         </p>
-        <p>
+        <p></p>
             Suffixes used by popular services:
             <list>
                 <li>GitHub: <code>#L</code></li>
                 <li>GitLab: <code>#L</code></li>
                 <li>Bitbucket: <code>#lines-</code></li>
             </list>
-        </p>
+        <p></p>
         <p>Default: empty (no suffix)</p>
     </def>
 </deflist>

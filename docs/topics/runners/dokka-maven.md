@@ -238,7 +238,7 @@ with [all configuration options](#complete-configuration) applied at the bottom 
     <def title="suppressObviousFunctions">
         <p>Whether to suppress obvious functions.</p>
         <p>
-            A function is considered to be obvious if it is:
+            A function is considered to be obvious if it is:</p>
             <list>
                 <li>
                     Inherited from <code>kotlin.Any</code>, <code>Kotlin.Enum</code>, <code>java.lang.Object</code> or 
@@ -249,7 +249,7 @@ with [all configuration options](#complete-configuration) applied at the bottom 
                     <code>dataClass.componentN</code> or <code>dataClass.copy</code>.
                 </li>
             </list>
-        </p>
+        <p></p>
         <p>Default: <code>true</code></p>
     </def>
     <def title="suppressInheritedMembers">
@@ -442,14 +442,14 @@ function in `kotlinx.coroutines`.
             The number itself is appended to the specified suffix. For example, if this option is set 
             to <code>#L</code> and the line number is 10, the resulting URL suffix is <code>#L10</code>.
         </p>
-        <p>
+        <p></p>
             Suffixes used by popular services:
             <list>
             <li>GitHub: <code>#L</code></li>
             <li>GitLab: <code>#L</code></li>
             <li>Bitbucket: <code>#lines-</code></li>
             </list>
-        </p>
+        <p></p>
     </def>
 </deflist>
 
